@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
 //          child: Text('Running on: $_platformVersion\n'),
-          child: FlatButton(
+          child: ElevatedButton(
               onPressed: () {
                 AppBadge.setAppBadge(math.Random.secure().nextInt(101));
               },
